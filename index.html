@@ -10,9 +10,7 @@
 <script type="text/javascript">
 	$(function(){
 		let a = $.getJSON('https://pforpajri.github.io/jurnal/name.json', function(data){
-			for (var i = 0; i < data.name["FO"].length; i++) {
-				console.log(data.name["FO"][i])
-			}
+			console.log(data)
 		});
 	})
 </script>

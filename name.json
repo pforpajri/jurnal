@@ -1,5 +1,5 @@
 {
-	"name":{
+	"name":[
 		"FO":[
 			"documents.pdf",
 			"documents2.pdf"
@@ -7,6 +7,6 @@
 		"GEPON":{
 
 		}
-	}
+	]
 
 }
