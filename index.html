@@ -6,16 +6,14 @@
 <body>
 <div id="content"></div>
 </body>
-<script type="text/javascript" src="name.json"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-
-	let reqURL = "http://pforpajri.github.com/jurnal/name.json";
-	let request = new XMLHttpRequest();
-	request.open("GET",reqURL);
-	request.responseType = 'json';
-	request.send();
-
-	console.log(request.response);
-
+	$(function(){
+		let a = $.getJSON('https://pforpajri.github.io/jurnal/name.json', function(data){
+			for (var i = 0; i < data.name["FO"].length; i++) {
+				console.log(data.name["FO"][i])
+			}
+		});
+	})
 </script>
 </html>
