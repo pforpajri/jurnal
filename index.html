@@ -4,9 +4,18 @@
 	<title>Jurnal</title>
 </head>
 <body>
-<div>TEST</div>
+<div id="content"></div>
 </body>
+<script type="text/javascript" src="name.json"></script>
 <script type="text/javascript">
-	
+
+	let reqURL = "http://pforpajri.github.com/name.json";
+	let request = new XMLHttpRequest();
+	request.open("GET",reqURL);
+	request.responseType = 'json';
+	request.send();
+
+	console.log(request.response);
+
 </script>
 </html>

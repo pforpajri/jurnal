@@ -1,12 +1,11 @@
 {
 	"name":{
-		"FO":{
-			 "0" : "document.pdf"
-		},
+		"FO":[
+			"documents.pdf"
+		],
 		"GEPON":{
 
 		}
-
 	}
 
 }
