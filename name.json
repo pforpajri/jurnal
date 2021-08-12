@@ -4,9 +4,9 @@
 			"documents.pdf",
 			"documents2.pdf"
 		],
-		"GEPON":{
+		"GEPON":[
 			"documents2.pdf"
-		}
+		]
 	}
 
 }
