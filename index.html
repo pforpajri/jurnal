@@ -10,16 +10,13 @@
 <script type="text/javascript">
 	$(function(){
 		let a = $.getJSON('https://pforpajri.github.io/jurnal/name.json', function(data){
-			let title = ['FO',"GEPON"]
+			let title = ['FO',"GEPON",'terestrial']
 			for (var i = 0; i < title.length; i++) {
 				let l = "https://pforpajri.github.io/jurnal/"+title[i]+"/";
-				
 				let t = document.createElement("h2");
 				t.innerHTML= title[i];
 				$("#content").append(t);
-				
 				for (var j = 0; j < data.name[title[i]].length; j++) {
-
 					let tag = document.createElement("a")
 					tag.setAttribute('href', l + data.name[title[i]][j]);
 					tag.setAttribute('target',"_blank");

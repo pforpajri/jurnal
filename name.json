@@ -1,11 +1,14 @@
 {
 	"name":{
 		"FO":[
-			"document.pdf",
+			"document1.pdf",
 			"document2.pdf"
 		],
 		"GEPON":[
-			"document2.pdf"
+			"example.pdf"
+		],
+		"terestrial":[
+			"example.pdf"
 		]
 	}
 
