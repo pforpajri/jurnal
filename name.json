@@ -1,7 +1,6 @@
 {
 	"name":{
-		"FO":[
-			"document1.pdf",
+		"FO":["document1.pdf",
 			"document2.pdf",
 			"document3.pdf",
 			"document4.pdf",
@@ -13,7 +12,16 @@
 			"document10.pdf"
 		],
 		"GEPON":[
-			"example.pdf"
+			"document1(teguh-kusnadi).pdf",
+			"document2.pdf",
+			"document3.pdf",
+			"document4.pdf",
+			"document5pdf",
+			"document6.pdf",
+			"document7.pdf",
+			"document8.pdf",
+			"document9.pdf",
+			"document10.pdf"
 		],
 		"terestrial":[
 			"example.pdf"
